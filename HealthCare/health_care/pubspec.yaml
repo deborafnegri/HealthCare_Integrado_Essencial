@@ -1,0 +1,33 @@
+name: health_care
+description: "A new Flutter project."
+publish_to: 'none' 
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0' # Atualizado para uma faixa mais moderna e compatível
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+  firebase_core: ^3.1.1 # Versões atualizadas para compatibilidade
+  cloud_firestore: ^5.0.2
+  firebase_auth: ^5.1.1
+  google_fonts: ^6.2.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
+
+  # ===============================================================
+  #  LOGO
+  # ===============================================================
+  assets:
+    - assets/

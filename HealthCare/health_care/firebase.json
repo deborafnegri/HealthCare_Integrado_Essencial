@@ -1,0 +1,38 @@
+{
+  "flutter": {
+    "platforms": {
+      "android": {
+        "default": {
+          "projectId": "healthcare-dbb91",
+          "appId": "1:1008044488359:android:a5185cd2f263e42eea0d82",
+          "fileOutput": "android/app/google-services.json"
+        }
+      },
+      "dart": {
+        "lib/firebase_options.dart": {
+          "projectId": "healthcare-dbb91",
+          "configurations": {
+            "android": "1:1008044488359:android:a5185cd2f263e42eea0d82",
+            "ios": "1:1008044488359:ios:706a8bd6ee0decb9ea0d82",
+            "macos": "1:1008044488359:ios:706a8bd6ee0decb9ea0d82",
+            "web": "1:1008044488359:web:4886e6c3161a6aa0ea0d82",
+            "windows": "1:1008044488359:web:e713c79a0d56a728ea0d82"
+          }
+        }
+      }
+    }
+  },
+  "functions": [
+    {
+      "source": "functions",
+      "codebase": "default",
+      "ignore": [
+        "node_modules",
+        ".git",
+        "firebase-debug.log",
+        "firebase-debug.*.log",
+        "*.local"
+      ]
+    }
+  ]
+}
